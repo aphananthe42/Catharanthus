@@ -4,6 +4,7 @@
 //
 //  Created by Aphananthe on 2021/01/07.
 //
+//  RxSwiftまわりの練習, 試し書き
 
 import UIKit
 import RxSwift

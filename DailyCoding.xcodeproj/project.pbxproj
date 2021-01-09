@@ -13,8 +13,11 @@
 		714AE87125A5BCE3007A1CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714AE86F25A5BCE3007A1CBE /* Main.storyboard */; };
 		714AE87325A5BCE7007A1CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714AE87225A5BCE7007A1CBE /* Assets.xcassets */; };
 		714AE87625A5BCE7007A1CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714AE87425A5BCE7007A1CBE /* LaunchScreen.storyboard */; };
+		716050A425A9887C00450DE7 /* Delegate_PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716050A325A9887C00450DE7 /* Delegate_PracticeViewController.swift */; };
+		716050A925A988A000450DE7 /* Delegate_Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716050A825A988A000450DE7 /* Delegate_Practice.storyboard */; };
 		7191D0A925A73DAF009CB003 /* RxSwift_Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */; };
 		7191D0AC25A73DDD009CB003 /* RxSwift_PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */; };
+		7191D0B225A97AFC009CB003 /* Protocol-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191D0B125A97AFC009CB003 /* Protocol-Practice.swift */; };
 		B11DE063B6F4D9FD25666E7F /* Pods_DailyCoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED7A914F482B6F2D18DEB98 /* Pods_DailyCoding.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +31,11 @@
 		714AE87225A5BCE7007A1CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		714AE87525A5BCE7007A1CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		714AE87725A5BCE7007A1CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716050A325A9887C00450DE7 /* Delegate_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate_PracticeViewController.swift; sourceTree = "<group>"; };
+		716050A825A988A000450DE7 /* Delegate_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Delegate_Practice.storyboard; sourceTree = "<group>"; };
 		7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift_Practice.storyboard; sourceTree = "<group>"; };
 		7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_PracticeViewController.swift; sourceTree = "<group>"; };
+		7191D0B125A97AFC009CB003 /* Protocol-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol-Practice.swift"; sourceTree = "<group>"; };
 		8C10D4559D481C4ED65C218F /* Pods-DailyCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyCoding.debug.xcconfig"; path = "Target Support Files/Pods-DailyCoding/Pods-DailyCoding.debug.xcconfig"; sourceTree = "<group>"; };
 		EED7A914F482B6F2D18DEB98 /* Pods_DailyCoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyCoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,7 +85,9 @@
 				714AE86B25A5BCE3007A1CBE /* SceneDelegate.swift */,
 				714AE86D25A5BCE3007A1CBE /* ViewController.swift */,
 				714AE86F25A5BCE3007A1CBE /* Main.storyboard */,
-				7191D0A725A73D5C009CB003 /* RxSwift-Practice */,
+				7191D0A725A73D5C009CB003 /* RxSwift_Practice */,
+				7191D0B525A97B11009CB003 /* Protocol_Practice */,
+				716050A225A9884A00450DE7 /* Delegate_Practice */,
 				714AE87225A5BCE7007A1CBE /* Assets.xcassets */,
 				714AE87425A5BCE7007A1CBE /* LaunchScreen.storyboard */,
 				714AE87725A5BCE7007A1CBE /* Info.plist */,
@@ -87,13 +95,30 @@
 			path = DailyCoding;
 			sourceTree = "<group>";
 		};
-		7191D0A725A73D5C009CB003 /* RxSwift-Practice */ = {
+		716050A225A9884A00450DE7 /* Delegate_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */,
-				7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */,
+				716050A325A9887C00450DE7 /* Delegate_PracticeViewController.swift */,
+				716050A825A988A000450DE7 /* Delegate_Practice.storyboard */,
 			);
-			path = "RxSwift-Practice";
+			path = Delegate_Practice;
+			sourceTree = "<group>";
+		};
+		7191D0A725A73D5C009CB003 /* RxSwift_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */,
+				7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */,
+			);
+			path = RxSwift_Practice;
+			sourceTree = "<group>";
+		};
+		7191D0B525A97B11009CB003 /* Protocol_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				7191D0B125A97AFC009CB003 /* Protocol-Practice.swift */,
+			);
+			path = Protocol_Practice;
 			sourceTree = "<group>";
 		};
 		7E68A2CB413FE8F80BA11367 /* Pods */ = {
@@ -166,6 +191,7 @@
 			files = (
 				714AE87625A5BCE7007A1CBE /* LaunchScreen.storyboard in Resources */,
 				7191D0A925A73DAF009CB003 /* RxSwift_Practice.storyboard in Resources */,
+				716050A925A988A000450DE7 /* Delegate_Practice.storyboard in Resources */,
 				714AE87325A5BCE7007A1CBE /* Assets.xcassets in Resources */,
 				714AE87125A5BCE3007A1CBE /* Main.storyboard in Resources */,
 			);
@@ -220,8 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716050A425A9887C00450DE7 /* Delegate_PracticeViewController.swift in Sources */,
 				714AE86E25A5BCE3007A1CBE /* ViewController.swift in Sources */,
 				7191D0AC25A73DDD009CB003 /* RxSwift_PracticeViewController.swift in Sources */,
+				7191D0B225A97AFC009CB003 /* Protocol-Practice.swift in Sources */,
 				714AE86A25A5BCE3007A1CBE /* AppDelegate.swift in Sources */,
 				714AE86C25A5BCE3007A1CBE /* SceneDelegate.swift in Sources */,
 			);
