@@ -10,7 +10,7 @@ import UIKit
 
 class Delegate_PracticeViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
     private let reuseIdentifier = "tableViewCell"
     private let toDo = ["発狂する", "朝ごはんを食べる", "二度寝する", "雨乞いする", "寝る"]
     
@@ -33,3 +33,17 @@ extension Delegate_PracticeViewController: UITableViewDataSource {
         return cell
     }
 }
+
+/*
+ UITableViewDelegateもあるがここでは省略
+ 
+ protocol UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+ }
+ 
+ UITableViewDataSource -> プロトコル(委譲したい処理、つまりデリゲートメソッドが書かれてる)
+ UITableView -> 処理を委譲するクラス
+ UIViewController -> 処理を委譲されるクラス
+ 
+ */
