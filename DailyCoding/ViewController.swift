@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     private let RxSwift_PracticeID = "RxSwift_Practice"
     private let Delegate_PracticeID = "Delegate_Practice"
     private let URLSession_PracticeID = "URLSession_Practice"
+    private let GCD_PracticeID = "GCD_Practice"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +33,12 @@ class ViewController: UIViewController {
     @IBAction func pushToURLSession_PracticeVC(_ sender: Any) {
         let storyboard = UIStoryboard(name: URLSession_PracticeID, bundle: nil)
         guard let vc = storyboard.instantiateViewController(withIdentifier: URLSession_PracticeID) as? URLSession_PracticeViewController else { return }
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func pushToGCD_PracticeVC(_ sender: Any) {
+        let storyboard = UIStoryboard(name: GCD_PracticeID, bundle: nil)
+        guard let vc = storyboard.instantiateViewController(withIdentifier: GCD_PracticeID) as? GCD_PracticeViewController else { return }
         self.navigationController?.pushViewController(vc, animated: true)
     }
     //画面遷移の方法は主に3つ

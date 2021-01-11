@@ -28,6 +28,8 @@ class URLSession_PracticeViewController: UIViewController {
                 }
             } catch let error { //なぜまたerrorを定数で宣言するの？
                 print(error)
+            } catch {
+                print(error)
             }
         }
         task.resume()
