@@ -16,6 +16,11 @@ class GCD_PracticeViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    // Q. DispatchQueue.mainとDispatchQueue.global(qos: .userInteractive)の違いは?
+    // A. UI更新等はメインスレッドで処理しなければならないので、.mainの方を使うが、例えば
+    //    1. ユーザー操作 → 2. 非同期処理（通信や計算など） → 3. 結果をユーザーに提示
+    //    という流れがあったとき、2をmain以外で実行し、3.をmainで実行（UIKitの制約による）、というふうに使い分けをする。
+
     @IBAction func pressExecution(_ sender: Any) {
         DispatchQueue.global(qos: .userInteractive).async(group: queueGroup) { //最優先, 即座にタスクが実行されてほしい時
             for _ in 0...10 {

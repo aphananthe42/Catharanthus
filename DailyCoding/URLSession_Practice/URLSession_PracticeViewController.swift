@@ -23,12 +23,11 @@ class URLSession_PracticeViewController: UIViewController {
             guard let _self = self, let _data = data else { return } //weakをつけるとオプショナルになるためselfをバインディング
             do {
                 let object = try JSONDecoder().decode(BoredAPI.self, from: _data) //BoredAPI.selfの.selfって何だよバカ
+                //BoredAPI.selfの.selfはメタタイプを表す インスタンスではなく、その型自体を指したい時に使う
                 DispatchQueue.main.async { //UI更新なのでDispatchQuere.main内に書く
                     _self.activityLabel.text = object.activity
                 }
-            } catch let error { //なぜまたerrorを定数で宣言するの？
-                print(error)
-            } catch {
+            } catch let error {
                 print(error)
             }
         }
