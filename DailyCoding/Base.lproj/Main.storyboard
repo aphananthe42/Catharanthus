@@ -20,7 +20,7 @@
                                 <rect key="frame" x="57" y="248" width="300" height="400"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKU-ER-LH7">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="89"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="68"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="RxSwift">
@@ -31,7 +31,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePg-kQ-omt">
-                                        <rect key="frame" x="0.0" y="104" width="300" height="88.5"/>
+                                        <rect key="frame" x="0.0" y="83" width="300" height="68"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Delegate">
@@ -42,7 +42,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xd-ue-5ta">
-                                        <rect key="frame" x="0.0" y="207.5" width="300" height="89"/>
+                                        <rect key="frame" x="0.0" y="166" width="300" height="68"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="URLSession">
@@ -53,7 +53,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxh-7e-Tl5">
-                                        <rect key="frame" x="0.0" y="311.5" width="300" height="88.5"/>
+                                        <rect key="frame" x="0.0" y="249" width="300" height="68"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="GCD">
@@ -61,6 +61,17 @@
                                         </state>
                                         <connections>
                                             <action selector="pushToGCD_PracticeVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ieO-9R-ydc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIz-AU-8Gr">
+                                        <rect key="frame" x="0.0" y="332" width="300" height="68"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Property">
+                                            <color key="titleColor" systemColor="systemGrayColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pushToProperty_PracticeVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Hr-WX-p4A"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -103,6 +114,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

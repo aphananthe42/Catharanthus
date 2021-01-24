@@ -20,6 +20,8 @@
 		714AE87625A5BCE7007A1CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714AE87425A5BCE7007A1CBE /* LaunchScreen.storyboard */; };
 		716050A425A9887C00450DE7 /* Delegate_PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716050A325A9887C00450DE7 /* Delegate_PracticeViewController.swift */; };
 		716050A925A988A000450DE7 /* Delegate_Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716050A825A988A000450DE7 /* Delegate_Practice.storyboard */; };
+		716B304B25BD9E32005E5076 /* Property_PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B304A25BD9E32005E5076 /* Property_PracticeViewController.swift */; };
+		716B304E25BD9E6D005E5076 /* Property_Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716B304D25BD9E6D005E5076 /* Property_Practice.storyboard */; };
 		7191D0A925A73DAF009CB003 /* RxSwift_Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */; };
 		7191D0AC25A73DDD009CB003 /* RxSwift_PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */; };
 		7191D0B225A97AFC009CB003 /* Protocol-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191D0B125A97AFC009CB003 /* Protocol-Practice.swift */; };
@@ -43,6 +45,8 @@
 		714AE87725A5BCE7007A1CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716050A325A9887C00450DE7 /* Delegate_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate_PracticeViewController.swift; sourceTree = "<group>"; };
 		716050A825A988A000450DE7 /* Delegate_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Delegate_Practice.storyboard; sourceTree = "<group>"; };
+		716B304A25BD9E32005E5076 /* Property_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property_PracticeViewController.swift; sourceTree = "<group>"; };
+		716B304D25BD9E6D005E5076 /* Property_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Property_Practice.storyboard; sourceTree = "<group>"; };
 		7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift_Practice.storyboard; sourceTree = "<group>"; };
 		7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_PracticeViewController.swift; sourceTree = "<group>"; };
 		7191D0B125A97AFC009CB003 /* Protocol-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol-Practice.swift"; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 				716050A225A9884A00450DE7 /* Delegate_Practice */,
 				711A88B725AA0F1C00423020 /* URLSession_Practice */,
 				711A88C625AB4C4100423020 /* GCD_Practice */,
+				716B304925BD9DF8005E5076 /* Property_Practice */,
 				714AE87225A5BCE7007A1CBE /* Assets.xcassets */,
 				714AE87425A5BCE7007A1CBE /* LaunchScreen.storyboard */,
 				714AE87725A5BCE7007A1CBE /* Info.plist */,
@@ -133,6 +138,15 @@
 				716050A825A988A000450DE7 /* Delegate_Practice.storyboard */,
 			);
 			path = Delegate_Practice;
+			sourceTree = "<group>";
+		};
+		716B304925BD9DF8005E5076 /* Property_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				716B304A25BD9E32005E5076 /* Property_PracticeViewController.swift */,
+				716B304D25BD9E6D005E5076 /* Property_Practice.storyboard */,
+			);
+			path = Property_Practice;
 			sourceTree = "<group>";
 		};
 		7191D0A725A73D5C009CB003 /* RxSwift_Practice */ = {
@@ -222,6 +236,7 @@
 			files = (
 				711A88B925AA0F7900423020 /* URLSession_Practice.storyboard in Resources */,
 				714AE87625A5BCE7007A1CBE /* LaunchScreen.storyboard in Resources */,
+				716B304E25BD9E6D005E5076 /* Property_Practice.storyboard in Resources */,
 				7191D0A925A73DAF009CB003 /* RxSwift_Practice.storyboard in Resources */,
 				711A88C825AB4CD600423020 /* GCD_Practice.storyboard in Resources */,
 				716050A925A988A000450DE7 /* Delegate_Practice.storyboard in Resources */,
@@ -279,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716B304B25BD9E32005E5076 /* Property_PracticeViewController.swift in Sources */,
 				716050A425A9887C00450DE7 /* Delegate_PracticeViewController.swift in Sources */,
 				714AE86E25A5BCE3007A1CBE /* ViewController.swift in Sources */,
 				7191D0AC25A73DDD009CB003 /* RxSwift_PracticeViewController.swift in Sources */,
