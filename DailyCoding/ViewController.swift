@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     private let Delegate_PracticeID = "Delegate_Practice"
     private let URLSession_PracticeID = "URLSession_Practice"
     private let GCD_PracticeID = "GCD_Practice"
+    private let Property_PracticeID = "Property_Practice"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +42,13 @@ class ViewController: UIViewController {
         guard let vc = storyboard.instantiateViewController(withIdentifier: GCD_PracticeID) as? GCD_PracticeViewController else { return }
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func pushToProperty_PracticeVC(_ sender: Any) {
+        let storyboard = UIStoryboard(name: Property_PracticeID, bundle: nil)
+        guard let vc = storyboard.instantiateViewController(withIdentifier: Property_PracticeID) as? Property_PracticeViewController else { return }
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     //画面遷移の方法は主に3つ
     //①StoryboardReferenceを貼る → UIButton等から直接Segueを生やす方法(ただ画面遷移したい時に使う)
     //②StoryboardReferenceを貼る → UIViewControllerからSegue(SegueIDを設定すること)を生やす方法(画面遷移前後に何かやりたい時に使う)
