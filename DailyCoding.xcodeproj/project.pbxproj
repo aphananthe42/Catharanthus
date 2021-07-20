@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,11 +25,11 @@
 		7191D0A925A73DAF009CB003 /* RxSwift_Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */; };
 		7191D0AC25A73DDD009CB003 /* RxSwift_PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */; };
 		7191D0B225A97AFC009CB003 /* Protocol-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191D0B125A97AFC009CB003 /* Protocol-Practice.swift */; };
-		B11DE063B6F4D9FD25666E7F /* Pods_DailyCoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED7A914F482B6F2D18DEB98 /* Pods_DailyCoding.framework */; };
+		71DE2DD726A6A6DB00C6E9B0 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 71DE2DD626A6A6DB00C6E9B0 /* RxCocoa */; };
+		71DE2DD926A6A6DB00C6E9B0 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 71DE2DD826A6A6DB00C6E9B0 /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DFED8D301AB03316D9C963E /* Pods-DailyCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyCoding.release.xcconfig"; path = "Target Support Files/Pods-DailyCoding/Pods-DailyCoding.release.xcconfig"; sourceTree = "<group>"; };
 		711A88B825AA0F7900423020 /* URLSession_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = URLSession_Practice.storyboard; sourceTree = "<group>"; };
 		711A88BC25AA10B700423020 /* URLSession_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_PracticeViewController.swift; sourceTree = "<group>"; };
 		711A88C025AA175500423020 /* BoredAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredAPI.swift; sourceTree = "<group>"; };
@@ -50,8 +50,6 @@
 		7191D0A825A73DAF009CB003 /* RxSwift_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift_Practice.storyboard; sourceTree = "<group>"; };
 		7191D0AB25A73DDD009CB003 /* RxSwift_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_PracticeViewController.swift; sourceTree = "<group>"; };
 		7191D0B125A97AFC009CB003 /* Protocol-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol-Practice.swift"; sourceTree = "<group>"; };
-		8C10D4559D481C4ED65C218F /* Pods-DailyCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyCoding.debug.xcconfig"; path = "Target Support Files/Pods-DailyCoding/Pods-DailyCoding.debug.xcconfig"; sourceTree = "<group>"; };
-		EED7A914F482B6F2D18DEB98 /* Pods_DailyCoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyCoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,21 +57,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11DE063B6F4D9FD25666E7F /* Pods_DailyCoding.framework in Frameworks */,
+				71DE2DD926A6A6DB00C6E9B0 /* RxSwift in Frameworks */,
+				71DE2DD726A6A6DB00C6E9B0 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3188BADDAF4AD2E516F49E52 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EED7A914F482B6F2D18DEB98 /* Pods_DailyCoding.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		711A88B725AA0F1C00423020 /* URLSession_Practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +89,6 @@
 			children = (
 				714AE86825A5BCE3007A1CBE /* DailyCoding */,
 				714AE86725A5BCE3007A1CBE /* Products */,
-				7E68A2CB413FE8F80BA11367 /* Pods */,
-				3188BADDAF4AD2E516F49E52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,15 +155,6 @@
 			path = Protocol_Practice;
 			sourceTree = "<group>";
 		};
-		7E68A2CB413FE8F80BA11367 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8C10D4559D481C4ED65C218F /* Pods-DailyCoding.debug.xcconfig */,
-				4DFED8D301AB03316D9C963E /* Pods-DailyCoding.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,17 +162,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 714AE87A25A5BCE7007A1CBE /* Build configuration list for PBXNativeTarget "DailyCoding" */;
 			buildPhases = (
-				F6F85F28F67D2564E74C1D62 /* [CP] Check Pods Manifest.lock */,
 				714AE86225A5BCE3007A1CBE /* Sources */,
 				714AE86325A5BCE3007A1CBE /* Frameworks */,
 				714AE86425A5BCE3007A1CBE /* Resources */,
-				34D19D490B601387054D4F34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DailyCoding;
+			packageProductDependencies = (
+				71DE2DD626A6A6DB00C6E9B0 /* RxCocoa */,
+				71DE2DD826A6A6DB00C6E9B0 /* RxSwift */,
+			);
 			productName = DailyCoding;
 			productReference = 714AE86625A5BCE3007A1CBE /* DailyCoding.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 714AE85D25A5BCE3007A1CBE;
+			packageReferences = (
+				71DE2DD526A6A6DB00C6E9B0 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 714AE86725A5BCE3007A1CBE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -246,48 +231,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		34D19D490B601387054D4F34 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DailyCoding/Pods-DailyCoding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DailyCoding/Pods-DailyCoding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailyCoding/Pods-DailyCoding-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6F85F28F67D2564E74C1D62 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DailyCoding-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		714AE86225A5BCE3007A1CBE /* Sources */ = {
@@ -447,7 +390,6 @@
 		};
 		714AE87B25A5BCE7007A1CBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C10D4559D481C4ED65C218F /* Pods-DailyCoding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,7 +409,6 @@
 		};
 		714AE87C25A5BCE7007A1CBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DFED8D301AB03316D9C963E /* Pods-DailyCoding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -507,6 +448,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71DE2DD526A6A6DB00C6E9B0 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71DE2DD626A6A6DB00C6E9B0 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71DE2DD526A6A6DB00C6E9B0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		71DE2DD826A6A6DB00C6E9B0 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71DE2DD526A6A6DB00C6E9B0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 714AE85E25A5BCE3007A1CBE /* Project object */;
 }
