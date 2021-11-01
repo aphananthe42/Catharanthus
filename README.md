@@ -1,3 +1,3 @@
 # 💻 Catharanthus
 
-色々と、学んだことを書いたり書かなかったりしていくリポジトリ
+Shut the fuck up and write some code.
