@@ -35,7 +35,7 @@
 		711A88C025AA175500423020 /* BoredAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredAPI.swift; sourceTree = "<group>"; };
 		711A88C725AB4CD600423020 /* GCD_Practice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GCD_Practice.storyboard; sourceTree = "<group>"; };
 		711A88CA25AB4CF000423020 /* GCD_PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD_PracticeViewController.swift; sourceTree = "<group>"; };
-		714AE86625A5BCE3007A1CBE /* DailyCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		714AE86625A5BCE3007A1CBE /* Catharanthus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catharanthus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		714AE86925A5BCE3007A1CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		714AE86B25A5BCE3007A1CBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		714AE86D25A5BCE3007A1CBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		714AE85D25A5BCE3007A1CBE = {
 			isa = PBXGroup;
 			children = (
-				714AE86825A5BCE3007A1CBE /* DailyCoding */,
+				714AE86825A5BCE3007A1CBE /* Catharanthus */,
 				714AE86725A5BCE3007A1CBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,12 +95,12 @@
 		714AE86725A5BCE3007A1CBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				714AE86625A5BCE3007A1CBE /* DailyCoding.app */,
+				714AE86625A5BCE3007A1CBE /* Catharanthus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		714AE86825A5BCE3007A1CBE /* DailyCoding */ = {
+		714AE86825A5BCE3007A1CBE /* Catharanthus */ = {
 			isa = PBXGroup;
 			children = (
 				714AE86925A5BCE3007A1CBE /* AppDelegate.swift */,
@@ -117,7 +117,7 @@
 				714AE87425A5BCE7007A1CBE /* LaunchScreen.storyboard */,
 				714AE87725A5BCE7007A1CBE /* Info.plist */,
 			);
-			path = DailyCoding;
+			path = Catharanthus;
 			sourceTree = "<group>";
 		};
 		716050A225A9884A00450DE7 /* Delegate_Practice */ = {
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		714AE86525A5BCE3007A1CBE /* DailyCoding */ = {
+		714AE86525A5BCE3007A1CBE /* Catharanthus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 714AE87A25A5BCE7007A1CBE /* Build configuration list for PBXNativeTarget "DailyCoding" */;
+			buildConfigurationList = 714AE87A25A5BCE7007A1CBE /* Build configuration list for PBXNativeTarget "Catharanthus" */;
 			buildPhases = (
 				714AE86225A5BCE3007A1CBE /* Sources */,
 				714AE86325A5BCE3007A1CBE /* Frameworks */,
@@ -170,13 +170,13 @@
 			);
 			dependencies = (
 			);
-			name = DailyCoding;
+			name = Catharanthus;
 			packageProductDependencies = (
 				71DE2DD626A6A6DB00C6E9B0 /* RxCocoa */,
 				71DE2DD826A6A6DB00C6E9B0 /* RxSwift */,
 			);
 			productName = DailyCoding;
-			productReference = 714AE86625A5BCE3007A1CBE /* DailyCoding.app */;
+			productReference = 714AE86625A5BCE3007A1CBE /* Catharanthus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 714AE86125A5BCE3007A1CBE /* Build configuration list for PBXProject "DailyCoding" */;
+			buildConfigurationList = 714AE86125A5BCE3007A1CBE /* Build configuration list for PBXProject "Catharanthus" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -209,7 +209,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				714AE86525A5BCE3007A1CBE /* DailyCoding */,
+				714AE86525A5BCE3007A1CBE /* Catharanthus */,
 			);
 		};
 /* End PBXProject section */
@@ -395,15 +395,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DY8J3CVQU;
-				INFOPLIST_FILE = DailyCoding/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Catharanthus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ryota.DailyCoding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryota.Catharanthus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,22 +414,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DY8J3CVQU;
-				INFOPLIST_FILE = DailyCoding/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Catharanthus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ryota.DailyCoding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ryota.Catharanthus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		714AE86125A5BCE3007A1CBE /* Build configuration list for PBXProject "DailyCoding" */ = {
+		714AE86125A5BCE3007A1CBE /* Build configuration list for PBXProject "Catharanthus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				714AE87825A5BCE7007A1CBE /* Debug */,
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		714AE87A25A5BCE7007A1CBE /* Build configuration list for PBXNativeTarget "DailyCoding" */ = {
+		714AE87A25A5BCE7007A1CBE /* Build configuration list for PBXNativeTarget "Catharanthus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				714AE87B25A5BCE7007A1CBE /* Debug */,
